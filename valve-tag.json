@@ -1,0 +1,40 @@
+{
+    "parameterSets": {
+        "all-slots": {
+            "INCLUDE_CORNER_SLOTS": "true",
+            "INCLUDE_LEFT_END_SLOT": "true",
+            "INCLUDE_RIGHT_END_SLOT": "true",
+            "INCLUDE_LEFT_END_HOLE": "false",
+            "INCLUDE_RIGHT_END_HOLE": "false"
+        },
+        "slots-and-holes": {
+            "INCLUDE_CORNER_SLOTS": "true",
+            "INCLUDE_LEFT_END_SLOT": "false",
+            "INCLUDE_RIGHT_END_SLOT": "false",
+            "INCLUDE_LEFT_END_HOLE": "true",
+            "INCLUDE_RIGHT_END_HOLE": "true"
+        },
+        "corner-slots-only": {
+            "INCLUDE_CORNER_SLOTS": "true",
+            "INCLUDE_LEFT_END_SLOT": "false",
+            "INCLUDE_RIGHT_END_SLOT": "false",
+            "INCLUDE_LEFT_END_HOLE": "false",
+            "INCLUDE_RIGHT_END_HOLE": "false"
+        },
+        "end-slots-only": {
+            "INCLUDE_CORNER_SLOTS": "false",
+            "INCLUDE_LEFT_END_SLOT": "true",
+            "INCLUDE_RIGHT_END_SLOT": "false",
+            "INCLUDE_LEFT_END_HOLE": "true",
+            "INCLUDE_RIGHT_END_HOLE": "false"
+        },
+        "left-end-hole-only": {
+            "INCLUDE_CORNER_SLOTS": "false",
+            "INCLUDE_LEFT_END_SLOT": "false",
+            "INCLUDE_RIGHT_END_SLOT": "false",
+            "INCLUDE_LEFT_END_HOLE": "true",
+            "INCLUDE_RIGHT_END_HOLE": "false"
+        }
+    },
+    "fileFormatVersion": "1"
+}
